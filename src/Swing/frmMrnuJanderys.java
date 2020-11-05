@@ -133,7 +133,6 @@ public class frmMrnuJanderys extends javax.swing.JFrame {
         btnCargo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnCargo.setHorizontalAlignment(javax.swing.SwingConstants.LEADING);
         btnCargo.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        btnCargo.setPreferredSize(new java.awt.Dimension(153, 71));
         btnCargo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCargoActionPerformed(evt);
@@ -183,7 +182,7 @@ public class frmMrnuJanderys extends javax.swing.JFrame {
                 .addGap(27, 27, 27)
                 .addComponent(btnEmpleado)
                 .addGap(11, 11, 11)
-                .addComponent(btnCargo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnCargo)
                 .addGap(11, 11, 11)
                 .addComponent(btnProducto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(11, 11, 11)
@@ -199,7 +198,7 @@ public class frmMrnuJanderys extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel1.add(BarraMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 190, 690));
+        jPanel1.add(BarraMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 190, 850));
 
         EscritorioContenedor.setBackground(new java.awt.Color(255, 255, 255));
         EscritorioContenedor.setPreferredSize(new java.awt.Dimension(1000, 700));
@@ -208,14 +207,14 @@ public class frmMrnuJanderys extends javax.swing.JFrame {
         EscritorioContenedor.setLayout(EscritorioContenedorLayout);
         EscritorioContenedorLayout.setHorizontalGroup(
             EscritorioContenedorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 960, Short.MAX_VALUE)
+            .addGap(0, 1140, Short.MAX_VALUE)
         );
         EscritorioContenedorLayout.setVerticalGroup(
             EscritorioContenedorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 620, Short.MAX_VALUE)
+            .addGap(0, 670, Short.MAX_VALUE)
         );
 
-        jPanel1.add(EscritorioContenedor, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 70, 960, 620));
+        jPanel1.add(EscritorioContenedor, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 70, 1140, 670));
 
         jPanel2.setBackground(new java.awt.Color(36, 31, 95));
         jPanel2.setPreferredSize(new java.awt.Dimension(100, 56));
@@ -224,28 +223,24 @@ public class frmMrnuJanderys extends javax.swing.JFrame {
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 960, Short.MAX_VALUE)
+            .addGap(0, 1140, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 70, Short.MAX_VALUE)
         );
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 0, 960, 70));
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 0, 1140, 70));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1033, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1331, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 637, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 742, Short.MAX_VALUE)
         );
 
         pack();
