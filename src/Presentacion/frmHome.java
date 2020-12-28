@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Swing;
+package Presentacion;
 
 import java.awt.Font;
 import java.time.LocalDateTime;
@@ -82,7 +82,6 @@ public class frmHome extends javax.swing.JFrame {
         setFocusableWindowState(false);
         setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(900, 480));
         addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
                 formMouseDragged(evt);
