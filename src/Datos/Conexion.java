@@ -12,7 +12,7 @@ public class Conexion {
   static Statement st = null;
   static ResultSet rs = null;
 
-  static String bd = "biblioteca";
+  static String bd = "janderys";
   static String login = "root";
   static String password = "";
   static String url = "jdbc:mysql://localhost/" + bd;

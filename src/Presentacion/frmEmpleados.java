@@ -16,6 +16,8 @@ public class frmEmpleados extends javax.swing.JInternalFrame {
      */
     public frmEmpleados() {
         initComponents();
+        
+        
     }
 
     /**
